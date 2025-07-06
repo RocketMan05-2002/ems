@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2rem;
+    /* background-color: rgb(255, 77, 0); */
+    background-color: goldenrod;
+    color: white;
+}
+.navbarLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 30px;
+    color: black;
+}
+.navbarLogo img{
+    width: 100px;
+    height: 50px;
+}
+.navbarIcons{
+    display: flex;
+    align-items: center;
+}
+.navbarIcon{
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: black;
+}
+.navbarIcon:hover{
+    background-color: black;
+    color: white;
+}
+
+.navbarLogoText{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
