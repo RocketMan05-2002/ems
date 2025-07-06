@@ -83,13 +83,13 @@
 .gradient {
   background: linear-gradient(
     to right,
-    #ff5e5e,
-    #ff9a3c,
-    #ffc300,
-    #ff6f00,
-    #ff3c00,
-    #ffa500,
-    #ff6347
+    #8b0000,  /* dark red */
+    #a52a2a,  /* brownish red */
+    #b22222,  /* firebrick */
+    #ff4500,  /* dark orange */
+    #ff8c00,  /* dark goldenrod */
+    #cc5500,  /* burnt orange */
+    #993300   /* dark burnt sienna */
   );
   background-size: 200%;
   background-clip: text;

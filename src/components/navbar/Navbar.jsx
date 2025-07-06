@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoIosAppstore, IoIosNotifications } from 'react-icons/io'
 import './navbar.css'
-import { BiLogoPlayStore } from 'react-icons/bi'
+import { BiAlarm, BiLogoPlayStore } from 'react-icons/bi'
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <IoIosAppstore size={25} />
             </div>
             <div className='navbarIcon'>
-                <BiLogoPlayStore size={25} />
+                <BiAlarm size={25} />
             </div>
         </div>
     </div>

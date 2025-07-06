@@ -1,0 +1,82 @@
+.rewards {
+  height: 778px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.rewards__container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.rewards__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rewards__top, .rewards__bottom {
+  background-color: #ccc;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.claim-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-size: 18px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.claim-btn:hover {
+  background-color: orange;
+  color: black;
+}
+
+.rewards__right {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.breakdown-toggle {
+  font-size: 16px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #eee;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.breakdown-toggle:hover {
+  background-color: #ddd;
+}
+
+.breakdown-panel {
+  background-color: #f7f7f7;
+  border: 1px solid #aaa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #ccc;
+  width: 280px;
+  font-size: 16px;
+}

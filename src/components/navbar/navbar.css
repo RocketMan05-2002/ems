@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 2rem;
-    /* background-color: rgb(255, 77, 0); */
-    background-color: goldenrod;
+    background-color: rgb(255, 77, 0);
     color: white;
 }
 .navbarLogo{

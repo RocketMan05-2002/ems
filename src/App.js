@@ -61,6 +61,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <div className="horizontalBar"></div>
       <div className="homePage">
         <Sidebar
           selectedSidebarIcon={selectedSidebarIcon}

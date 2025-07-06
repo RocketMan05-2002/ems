@@ -6,6 +6,8 @@
     align-items: center;
     gap: 20px;
     padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 .card:hover{
     background-color: #ccc;
