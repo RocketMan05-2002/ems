@@ -3,7 +3,8 @@
     padding: 30px;
     background-color: black;
     color: white;
-    width: 250px;
+    /* width: 250px; */
+    flex: 1;
     height: 100vh;
 }
 /* ::-webkit-scrollbar{
