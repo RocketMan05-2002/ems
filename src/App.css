@@ -1,16 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.homePage{
-    display: flex;
+.homePage {
+  display: flex;
 }
-.feed{
-    flex: 6;
+.feed {
+  flex: 6;
 }
-.horizontalBar{
-    height: 10px;
-    background-color: darkred;
+.horizontalBar {
+  height: 10px;
+  background-color: darkred;
 }
