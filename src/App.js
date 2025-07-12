@@ -11,6 +11,7 @@ import {
   Salary,
   Settings,
   Rewards,
+  Logic,
 } from "./containers";
 
 const SIDEBAR_ITEMS = {
@@ -21,11 +22,12 @@ const SIDEBAR_ITEMS = {
   SALARY: 5,
   SETTINGS: 6,
   REWARDS: 7,
+  LOGIC: 8,
 };
 
 const employee = {
   image:
-    "https://media.licdn.com/dms/image/v2/D4D03AQGV2UJ7cB8ndg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700764478678?e=2147483647&v=beta&t=S516um56Gf2EhkcqOMoNoJ68_WJW_RHKO89dk-dT5-Q",
+    "https://thumb.photo-ac.com/96/96966e2cbb19a3866ae87835e0a55f9a_t.jpeg",
   firstName: "Abhinay",
   lastName: "Shambharkar",
   age: 23,
@@ -54,6 +56,8 @@ const App = () => {
         return <Settings />;
       case SIDEBAR_ITEMS.REWARDS:
         return <Rewards />;
+      case SIDEBAR_ITEMS.LOGIC:
+        return <Logic />;
       default:
         return <Dashboard />;
     }

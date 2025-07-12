@@ -5,3 +5,4 @@ export { default as Leave } from "./leave/Leave";
 export { default as Salary } from "./salary/Salary";
 export { default as Settings } from "./settings/Settings";
 export { default as Rewards } from "./rewards/Rewards";
+export { default as Logic } from "./logic/Logic"

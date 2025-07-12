@@ -5,6 +5,7 @@ import { SlCalender } from "react-icons/sl"; //leave
 import { GiReceiveMoney } from "react-icons/gi"; //salary
 import { IoSettingsSharp } from "react-icons/io5"; //settings
 import { FaMoneyBillTrendUp } from "react-icons/fa6"; //rewards
+import { MdDataArray } from "react-icons/md"; //logic
 
 const sidebarIcons = [
   {
@@ -42,6 +43,11 @@ const sidebarIcons = [
     title: "Rewards",
     icon: <FaMoneyBillTrendUp size={25} />,
   },
+  {
+    id: 8,
+    title: "Get Analysis",
+    icon: <MdDataArray size={25} />
+  }
 ];
 
 export default sidebarIcons;
