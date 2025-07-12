@@ -1,0 +1,58 @@
+.logic{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 778px;
+    color: white;
+}
+.logic__top{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+.add__data--btn, .get__data--btn, .show__data--btn{
+    padding: 30px 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.get__data--btn{
+    background-color: darkblue;
+}
+.show__data--btn{
+    background-color: darkgreen;
+}
+.add__data--btn:hover, .get__data--btn:hover{
+    background-color: black;
+    box-shadow: 0 0 10px darkred;
+}
+.logic__middle{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 50%;
+    h1{
+        text-transform: uppercase;
+    }
+}
+.logic__bottom{
+    background-color: green;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
